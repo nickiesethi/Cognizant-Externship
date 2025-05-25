@@ -10,24 +10,24 @@ num1 = 40
 num2 = 80
 
 # Addition
-print("The sum of " + str(num1) + " and " + str(num2) + "is " + str(num1 + num2))
+print("The sum of " + str(num1) + " and " + str(num2) + " is " + str(num1 + num2))
 
 # Subtraction
-print("The different between " + str(num1) + " and " + str(num2) + "is " + str(num1 - num2))
+print("The different between " + str(num1) + " and " + str(num2) + " is " + str(num1 - num2))
  
 # Multiplication
-print("The multiplication of " + str(num1) + " and " + str(num2) + "is " + str(num1 * num2))
+print("The multiplication of " + str(num1) + " and " + str(num2) + "i s " + str(num1 * num2))
 
 # Division
-print("The division of " + str(num1) + " and " + str(num2) + "is " + str(num1 / num2))
+print("The division of " + str(num1) + " and " + str(num2) + " is " + str(num1 / num2))
 
 # Task 3 - Conditional Statements: The Number Checker
 
 userInput = input("Enter a number! I will tell you whether it is 0, positive, or negative!")
     
-if userInput > 0:
+if int(userInput) > 0:
     print("This number is positive. Awesome!")
-elif userInput < 1:
+elif int(userInput) < 0:
     print("This number is negative. Better luck next time!")
 else:
     print("Zero it is. A perfect balance!")
