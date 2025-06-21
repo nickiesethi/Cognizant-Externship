@@ -13,7 +13,6 @@ while(1):
         print("Error: Please enter a valid number")
         prompt = int(input("Enter a number: "))
     
-    
 # Task 2 - Types of Exceptions
 array = [2, 4, 5]
 word = "hey"
